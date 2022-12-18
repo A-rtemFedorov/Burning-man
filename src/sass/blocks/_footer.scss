@@ -1,0 +1,15 @@
+footer {
+    padding-top: 114px;
+    padding-bottom: 80px;
+}
+
+.info {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    &__namies{
+        margin-left: 55px;
+    }
+}

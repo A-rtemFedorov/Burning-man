@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    .menu {
+        display: flex;
+        &__logo {
+            margin-top: 57px;
+            margin-right: 69px;
+        }
+        &__cat {
+            margin-top: 72px;
+            a {
+                margin-right: 40px;
+                font-weight: 900;
+                font-size: 14px;
+                text-transform: uppercase;  
+                color: #fff;
+                text-decoration: none;  
+                &:hover {
+                color:rgb(107, 103, 103);
+                }    
+            }
+        }    
+    }
+    &__phone {
+        margin-top: 71px;
+        a {
+            font-weight: 900;
+            font-size: 17px;
+            text-transform: uppercase;  
+            color: #fff;
+            text-decoration: none; 
+            &:hover {
+                color:rgb(107, 103, 103);
+            } 
+        }
+    }
+}
+
